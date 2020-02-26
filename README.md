@@ -11,7 +11,7 @@ En esta segunda parte del laboratorio, comenzarás a usar Inteligencia Artificia
 
 ## **Crea una página web**
 
-Dentro de tu entorno de Cloud9 existente vamos a crear una nueva página donde pondremos el código para reconocer rostros.
+Dentro de tu entorno de *Cloud9* existente vamos a crear una nueva página donde pondremos el código para reconocer rostros.
 
 Dentro del proyecto existente da clic en la carpeta *static* y allí selecciona *New File*
 
