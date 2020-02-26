@@ -83,11 +83,11 @@ Vamos a editar la configuración de *AWS Amplify* para que use la misma versión
 
 Esto despliega a la derecha una ventana con los comandos usados para configurar nuestro sitio web. En esa ventana a la derecha seleccionamos el botón *Edit*
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuildSettingsEdit.png)
+![Build Settings Edit](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuildSettingsEdit.png)
 
 Y remplazamos el texto existente por el contenido del archivo [amplify.yml](https://github.com/duvierZ/howto-rekognition-hoc2020/blob/master/src/amplify.yml) y después damos clic al botón *Save*.
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuildSettingsSave.png)
+![Build Settings Save](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuildSettingsSave.png)
 
 Una vez que está listo nuestro entorno, vamos a añadir nuestros cambios (si tus carpetas tienen otro nombre recuerda cambiarlo en el comando)
 
@@ -101,15 +101,15 @@ Anexamos nuestros cambios al repositorio
 
 En uno o dos minutos el servicio *Amplify* detectará los cambios e iniciará el proceso de despliegue, puedes fijarte en el avance en la ventana
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuilding.png)
+![Amplify Building](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyBuilding.png)
 
 Espera unos minutos hasta que el proceso haya terminado y el indicador de *Verify* se encuentre en verde
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyVerify.png)
+![Amplify Verify](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyVerify.png)
 
 Listo, ya tu aplicación está desplegada. Puedes accederla desde el navegador haciendo clic en tu url (la puedes encontrar debajo de la sección master)
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyMasterURL.png)
+![Amplify Mater URL](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyMasterURL.png)
 
 algo similar a
 
@@ -119,7 +119,7 @@ y agregando al final de la url el nombre de tu página HTML
 
 	/rekognition-hoc.html
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyRekognitionURL.png)
+![AmplifyRekognitionURL](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyRekognitionURL.png)
 
 **:clap: :clap: Ya tienes tu aplicación de reconocimiento de rostros en internet :clap: :clap:**
 
@@ -131,4 +131,4 @@ Si tu página de reconocimiento no carga y por el contrario te sigue llevando a 
 
 2. En la consola de *Amplify* selecciona en el menú de la izquierda *Rewrites and Redirects* y en la ventana que se despliega a la derecha selecciona el botón *Edit* y elimina las reglas que allí encuentras
 
-![Build Settings Menu](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyRedirects.png)
+![AmplifyRedirects](https://raw.githubusercontent.com/duvierZ/howto-rekognition-hoc2020/master/images/amplifyRedirects.png)
